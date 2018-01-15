@@ -149,7 +149,7 @@ namespace LedBar
             else
             { Mode = LedMode.LTR; }
             Console.WriteLine($"Mode changed to {Mode}");
-            pin.WaitForEdge(edge, HandleSpeedButtonRelease);
+            pin.WaitForEdge(edge, HandleModeButtonRelease);
         }
     }
 }
