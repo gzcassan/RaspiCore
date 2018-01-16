@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\RaspiCore\RaspiCore.csproj" />
+    <ProjectReference Include="..\..\src\RaspiCore\RaspiCore.csproj" />
   </ItemGroup>
 
 </Project>
